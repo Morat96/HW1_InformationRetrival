@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-<node name ="move" pkg="hw2" type="move" output="screen" ns="ur5">
-<remap from="/ur5/tag_detections" to="/tag_detections"/>
-<remap from="/ur5/tf" to="/tf"/>
-</node>
-</launch>
